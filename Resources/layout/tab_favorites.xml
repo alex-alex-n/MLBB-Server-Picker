@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tabFavorites"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center_vertical"
+      android:paddingStart="16dp"
+      android:paddingEnd="8dp"
+      android:paddingTop="4dp">
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/swAutoPing"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/text"
+        android:textSize="14sp"
+        android:text="@string/fav_hint" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPingFavs"
+        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/ping_now"
+        app:icon="@drawable/ic_refresh" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center_vertical"
+      android:paddingHorizontal="16dp">
+
+    <TextView
+        android:id="@+id/txtFavStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:text="@string/fav_hint" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFavBlockOthers"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:textSize="12sp"
+        android:visibility="gone"
+        android:text="@string/btn_block" />
+
+  </LinearLayout>
+
+  <com.google.android.material.progressindicator.LinearProgressIndicator
+      android:id="@+id/progFav"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="16dp"
+      android:layout_marginTop="4dp"
+      android:visibility="gone"
+      app:trackCornerRadius="2dp" />
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listFavs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="4dp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/txtEmptyFavs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="32dp"
+        android:textColor="@color/text_secondary"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:text="@string/empty_favorites" />
+
+  </FrameLayout>
+
+</LinearLayout>

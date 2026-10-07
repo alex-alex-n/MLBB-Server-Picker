@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+
+    <OutputType>Exe</OutputType>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+
+    <RootNamespace>MlbbServerPicker</RootNamespace>
+    <AssemblyName>MlbbServerPicker</AssemblyName>
+
+    <ApplicationId>com.mlbbtools.serverpicker</ApplicationId>
+    <ApplicationVersion>3</ApplicationVersion>
+    <ApplicationDisplayVersion>1.2.0</ApplicationDisplayVersion>
+
+    <AndroidPackageFormats>apk</AndroidPackageFormats>
+    <PublishSingleFile>false</PublishSingleFile>
+
+    <NoWarn>$(NoWarn);CA1422;CS0618;CS0612</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
+    <RuntimeIdentifiers>android-arm;android-arm64</RuntimeIdentifiers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.13.0.2" />
+  </ItemGroup>
+
+</Project>

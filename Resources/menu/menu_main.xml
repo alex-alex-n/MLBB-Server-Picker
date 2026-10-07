@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item android:id="@+id/action_donate" android:icon="@drawable/ic_heart" android:title="@string/action_donate"
+        app:iconTint="@color/donate" app:showAsAction="always" />
+  <item android:id="@+id/action_help" android:title="@string/action_help" app:showAsAction="never" />
+  <item android:id="@+id/action_battery" android:title="@string/action_battery" app:showAsAction="never" />
+  <item android:id="@+id/action_unblock_all" android:title="@string/action_unblock_all" app:showAsAction="never" />
+  <item android:id="@+id/action_export" android:title="@string/action_export" app:showAsAction="never" />
+  <item android:id="@+id/action_clear" android:title="@string/action_clear" app:showAsAction="never" />
+  <item android:id="@+id/action_settings" android:title="@string/action_settings" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">MLBB Server Picker</string>
+  <string name="subtitle_app">Choose the best server for the game</string>
+
+  <string name="tab_status">Status</string>
+  <string name="tab_favorites">Favorites</string>
+  <string name="tab_servers">Servers</string>
+
+  <string name="status_on">Filter is active</string>
+  <string name="status_off">Filter is off</string>
+  <string name="status_error">Error: %1$s</string>
+  <string name="match_now">● Match in progress: %1$s%2$s · %3$s</string>
+  <string name="ms_fmt">%1$s ms</string>
+  <string name="ping_none">ping —</string>
+  <string name="hint_running">No match right now. Open the game and start matchmaking — servers will appear in the Servers tab.</string>
+  <string name="hint_stopped">Tap “Start”, allow the VPN and open the game.</string>
+  <string name="counters_fmt">Game servers: %1$d · favorites: %2$d · blocked: %3$d</string>
+  <string name="counters_pending">+%1$d after match</string>
+  <string name="counters_other">other: %1$d</string>
+  <string name="counters_flows">flows: %1$d</string>
+  <string name="best_title_fav_one">⭐ Favorite server</string>
+  <string name="best_title_fav_many">⭐ Favorite servers (%1$d)</string>
+  <string name="best_title_ping">Best ping right now</string>
+  <string name="geo_pending">Resolving provider…</string>
+  <string name="best_fav_strict_on">Other game servers are blocked</string>
+  <string name="best_fav_strict_off">Auto-block is off</string>
+  <string name="btn_block_others">Block the others (%1$d)</string>
+  <string name="btn_reset_favs">Reset favorites and blocks</string>
+  <string name="btn_keep_only_this">Keep only this one</string>
+  <string name="btn_start">Start</string>
+  <string name="btn_stop">Stop</string>
+  <string name="strict_switch">Auto-block new game servers</string>
+  <string name="btn_unblock_all_short">Remove all blocks</string>
+  <string name="btn_help">How to use</string>
+
+  <string name="donate_title">Support the author ❤</string>
+  <string name="donate_text">The app is free and has no ads. If it helped you get a better ping — you can say thanks with a donation.</string>
+  <string name="donate_button">Donate</string>
+  <string name="donate_bar">❤ Like the app? Support the author</string>
+  <string name="action_donate">Support the author</string>
+
+  <string name="chip_game">Game</string>
+  <string name="chip_active">Now</string>
+  <string name="chip_blocked">Blocked</string>
+  <string name="chip_other">Other</string>
+  <string name="chip_fmt">%1$s · %2$d</string>
+  <string name="ping_all">Ping all</string>
+  <string name="ping_progress">Pinging %1$s… (%2$d/%3$d)</string>
+  <string name="ping_cancelled">Ping cancelled</string>
+  <string name="ping_unavailable">ICMP ping is not available on this device</string>
+  <string name="ping_nothing">Nothing to ping</string>
+  <string name="ping_queued">Pinging %1$d servers one by one…</string>
+  <string name="sort_title">Sort</string>
+  <string name="sort_ping">By ping (best first)</string>
+  <string name="sort_game">By in-game ping</string>
+  <string name="sort_recent">By last activity</string>
+  <string name="empty_active">The game is not talking to any game server right now.\nOpen the game and start matchmaking.</string>
+  <string name="empty_blocked">Nothing is blocked.\nFind a server with a good ping and tap “Only this”.</string>
+  <string name="empty_other">No other servers.</string>
+  <string name="empty_game_running">No game servers yet.\nOpen the game and start matchmaking —\nservers will appear here automatically.</string>
+  <string name="empty_game_stopped">Tap “Start” and play a match —\ngame servers will appear here.</string>
+
+  <string name="autoping_label">Auto-ping every %1$d s</string>
+  <string name="ping_now">Ping now</string>
+  <string name="fav_hint">Favorites are pinged one at a time with pauses, so measurements do not interfere with each other.</string>
+  <string name="fav_last_ping">Last ping: %1$s</string>
+  <string name="fav_autoping_off">Auto-ping is off — tap ↻ to ping</string>
+  <string name="empty_favorites">No favorites yet.\nIn the Servers tab tap “Only this” on a server with a good ping,\nor use ⋮ → Add to favorites.</string>
+
+  <string name="quality_excellent">excellent</string>
+  <string name="quality_good">good</string>
+  <string name="quality_meh">so-so</string>
+  <string name="quality_bad">bad</string>
+  <string name="ping_not_measured">not measured</string>
+  <string name="ping_no_reply">no reply (ICMP blocked?)</string>
+  <string name="ping_in_game">in game: %1$s</string>
+  <string name="ping_game_label">in game · %1$s</string>
+  <string name="ping_game_icmp_dead">in game · no ICMP reply</string>
+  <string name="role_match">MATCH</string>
+  <string name="role_probe">PROBE</string>
+  <string name="role_lobby">LOBBY</string>
+  <string name="role_service">SERVICE</string>
+  <string name="role_other">OTHER</string>
+  <string name="badge_now">NOW</string>
+  <string name="badge_fav">★ FAVORITE</string>
+  <string name="badge_blocked">BLOCKED</string>
+  <string name="badge_autoblock">AUTO-BLOCKED</string>
+  <string name="badge_pending">BLOCK AFTER MATCH</string>
+  <string name="geo_resolving">Resolving provider…</string>
+  <string name="geo_failed">Provider unknown (no internet?)</string>
+  <string name="geo_service">Service traffic: login, CDN, analytics</string>
+  <string name="geo_lobby">Lobby / account server</string>
+  <string name="geo_unknown">Purpose unknown</string>
+  <string name="meta_matches">Matches: %1$d</string>
+  <string name="meta_samples">samples %1$d</string>
+  <string name="meta_loss">loss %1$s</string>
+  <string name="meta_pinged">pinged %1$s</string>
+  <string name="det_ports">Ports: UDP %1$s · TCP %2$s</string>
+  <string name="det_udp">UDP ↑ %1$s / %2$d pkts · ↓ %3$s / %4$d pkts</string>
+  <string name="det_tcp">TCP ↑ %1$s · ↓ %2$s</string>
+  <string name="det_rtt">In-game ping: avg %1$s · min %2$s · last %3$s</string>
+  <string name="det_ping">ICMP ping: avg %1$s · last %2$s · min %3$s · jitter %4$s · loss %5$s · rounds %6$d</string>
+  <string name="det_icmp">Game ICMP: %1$d/%2$d</string>
+  <string name="det_geo">Provider: %1$s</string>
+  <string name="det_source">source %1$s</string>
+  <string name="det_first">First seen: %1$s · dropped packets: %2$d</string>
+  <string name="btn_block_card">Block</string>
+  <string name="btn_unblock_card">Unblock</string>
+  <string name="btn_keep_card">Add to favorite</string>
+  <string name="btn_fav_card">Remove from favorites</string>
+  <string name="btn_ping_card">Ping</string>
+
+  <string name="bytes_b">%1$s B</string>
+  <string name="bytes_kb">%1$s KB</string>
+  <string name="bytes_mb">%1$s MB</string>
+  <string name="bytes_gb">%1$s GB</string>
+  <string name="ago_now">just now</string>
+  <string name="ago_sec">%1$d s ago</string>
+  <string name="ago_min">%1$d min ago</string>
+  <string name="ago_hour">%1$d h ago</string>
+
+  <string name="snack_strict_on">New game servers will be blocked automatically</string>
+  <string name="snack_strict_off">Auto-block of new servers is off</string>
+  <string name="snack_vpn_denied">Without the VPN permission the game traffic cannot be intercepted</string>
+  <string name="snack_csv_saved">CSV saved</string>
+  <string name="snack_export_error">Export error: %1$s</string>
+  <string name="snack_unblocked">%1$s unblocked</string>
+  <string name="snack_blocked">%1$s blocked</string>
+  <string name="snack_block_pending">%1$s will be blocked after the match</string>
+  <string name="snack_ip_copied">IP copied</string>
+  <string name="snack_no_browser">No browser found</string>
+  <string name="snack_fav_added">%1$s added to favorites</string>
+  <string name="snack_fav_removed">%1$s removed from favorites</string>
+  <string name="snack_reset">Reset done</string>
+  <string name="snack_unblocked_all">All blocks removed</string>
+  <string name="snack_counters_cleared">Counters reset</string>
+  <string name="snack_battery_ok">Battery optimization is already disabled for the app</string>
+  <string name="snack_saved">Saved</string>
+  <string name="snack_saved_restart">Saved. Packages and DNS apply after the filter restarts</string>
+  <string name="snack_keep_result">%1$s is a favorite. Blocked: %2$d</string>
+  <string name="keep_pending_suffix">after match: %1$d</string>
+  <string name="snack_blocked_count">Blocked: %1$d</string>
+
+  <string name="btn_cancel">Cancel</string>
+  <string name="btn_block">Block</string>
+  <string name="btn_after_match">After the match</string>
+  <string name="btn_now">Now</string>
+  <string name="btn_undo">Undo</string>
+  <string name="btn_unfavorite">Remove from favorites</string>
+  <string name="btn_reset">Reset</string>
+  <string name="btn_unblock">Unblock</string>
+  <string name="btn_save">Save</string>
+  <string name="btn_clear_counters">Clear counters</string>
+  <string name="btn_delete_all">Delete everything</string>
+  <string name="btn_ok">Got it</string>
+  <string name="btn_settings">Settings</string>
+  <string name="btn_close">Close</string>
+  <string name="btn_open_settings">Open settings</string>
+  <string name="btn_later">Later</string>
+
+  <string name="dlg_not_game_title">This is not a game server</string>
+  <string name="dlg_not_game_msg">This address is not used in battle (login, lobby, shop, updates, analytics). Blocking it will not improve ping but may break login or the shop.\n\nBlock anyway?</string>
+  <string name="dlg_match_now_title">A match is running on this server</string>
+  <string name="dlg_match_now_msg">Blocking it right now will drop the connection and you will be kicked from the battle.\n\nBetter to block after the match — the app will do it automatically once the server goes silent.</string>
+  <string name="dlg_fav_title">%1$s — favorite</string>
+  <string name="dlg_fav_msg">Remove the server from favorites? Blocks of other servers stay.</string>
+  <string name="dlg_keep_title">Keep only this server?</string>
+  <string name="keep_msg_1">Server %1$s%2$s will become a favorite.</string>
+  <string name="keep_msg_others">Other game servers will be blocked: %1$d</string>
+  <string name="keep_msg_no_others">There are no other unblocked game servers right now</string>
+  <string name="keep_msg_match_note">(the current match server — after the match ends)</string>
+  <string name="keep_msg_strict">“Favorites only” mode turns on: new game servers found later will be blocked automatically.</string>
+  <string name="keep_msg_lobby">Lobby and service servers are not touched — the game cannot log in without them.</string>
+  <string name="keep_msg_hang">If matchmaking hangs (the favorite is overloaded or in maintenance) — tap “Remove all blocks”.</string>
+  <string name="dlg_block_others_title">Block the other game servers?</string>
+  <string name="dlg_block_others_msg">%1$d game servers outside favorites will be blocked. The current match server — after the match.</string>
+  <string name="dlg_reset_title">Reset favorites and blocks?</string>
+  <string name="dlg_reset_msg">All servers will be unblocked, favorites cleared, auto-block turned off. Statistics stay.</string>
+  <string name="dlg_unblock_all_title">Remove all blocks?</string>
+  <string name="dlg_unblock_all_msg">All servers become available to the game again. Favorites stay, but auto-block of new servers is turned off until you enable it again.</string>
+  <string name="menu_label">Label…</string>
+  <string name="menu_fav_add">Add to favorites ★</string>
+  <string name="menu_fav_remove">Remove from favorites</string>
+  <string name="menu_details">Show/hide details</string>
+  <string name="menu_copy">Copy IP</string>
+  <string name="menu_whois">Full whois in browser</string>
+  <string name="menu_ping">Ping this server</string>
+  <string name="dlg_label_title">Label for %1$s</string>
+  <string name="label_hint">e.g. “my favorite”, “laggy in the evening”</string>
+  <string name="dlg_clear_title">Clear statistics?</string>
+  <string name="dlg_clear_msg">Packet counters and pings will be reset.\n\nGame servers, favorites, blocks, labels and provider data stay. Other (service) addresses will be removed.</string>
+  <string name="dlg_delete_all_title">Delete everything, including game servers?</string>
+  <string name="dlg_delete_all_msg">This cannot be undone.</string>
+
+  <string name="settings_title">Settings</string>
+  <string name="settings_language">App language</string>
+  <string name="settings_autoping_interval">Favorites auto-ping interval</string>
+  <string name="lang_system">System (auto)</string>
+  <string name="sec_fmt">%1$d s</string>
+  <string name="settings_rst">Reply RST to TCP of blocked servers (the game forgets them faster)</string>
+  <string name="settings_packages">Game packages (comma separated)</string>
+  <string name="settings_dns">DNS inside the tunnel</string>
+  <string name="settings_probe_ports">UDP probe ports (ping measurement)</string>
+  <string name="settings_match_ports">Match ports</string>
+  <string name="settings_lobby_ports">Lobby TCP ports</string>
+
+  <string name="dlg_not_installed_title">Game not found</string>
+  <string name="dlg_not_installed_msg">Mobile Legends package not found (%1$s).\n\nIf the game is installed from another store — add its package name in Settings.</string>
+  <string name="dlg_battery_title">Keep the filter alive</string>
+  <string name="dlg_battery_msg">On many phones (Xiaomi, Samsung, Huawei, Realme…) the system kills background services and the filter stops in the middle of a game.\n\nIt is recommended to exclude the app from battery optimization.</string>
+
+  <string name="action_help">How it works</string>
+  <string name="action_battery">Battery</string>
+  <string name="action_unblock_all">Remove all blocks</string>
+  <string name="action_export">Export CSV</string>
+  <string name="action_clear">Clear statistics</string>
+  <string name="action_settings">Settings</string>
+
+  <string name="notif_channel">MLBB server filter</string>
+  <string name="notif_desc">Game traffic interception status</string>
+  <string name="notif_starting">Starting…</string>
+  <string name="notif_title">MLBB server filter is active</string>
+  <string name="notif_match">Match: %1$s</string>
+  <string name="vpn_err_not_found">Mobile Legends is not installed on this device</string>
+  <string name="vpn_err_no_iface">The system did not provide a VPN interface. Turn off other VPNs and try again</string>
+  <string name="vpn_err_revoked">VPN was disconnected by the system (another VPN turned on?)</string>
+
+  <string name="help_title">How to use</string>
+  <string name="help_html"><![CDATA[
+<b>What the app does</b><br>
+It is a local traffic filter for Mobile Legends. It does <b>not</b> speed up the internet and does <b>not</b> change the account region —
+it lets you “hide” battle servers with bad ping from the game so it picks good ones.
+Nothing is sent anywhere: only the game is intercepted, other apps work directly.<br><br>
+
+<b>Quick start</b><br>
+1. On the <b>Status</b> tab tap <b>Start</b> and allow the VPN (other VPNs must be off — Android allows only one).<br>
+2. Open the game and play 1–3 matches. The <b>Servers</b> tab fills with servers, in-game ping, country and provider.<br>
+3. Tap the <b>ping button</b> (📶) to ping all servers — the list sorts best to worst. Servers are pinged one by one with pauses, so the mass ping does not skew the results.<br>
+4. Tap <b>Only this</b> on the best server (or “Keep only this one” on the Status tab). Done: the other game servers are blocked, new ones get blocked automatically.<br><br>
+
+<b>Favorites tab</b><br>
+Your chosen servers with auto-ping (interval in Settings). ICMP ping is a proxy: the real ping in battle is the “in game” value measured from the game’s own probes.
+Some servers do not answer ICMP at all — then only the in-game ping is shown.<br><br>
+
+<b>Server types</b><br>
+• <b>MATCH</b> — battle server. Ping in battle = ping to it.<br>
+• <b>PROBE</b> — candidates the game probes before matchmaking. The honest in-game ping is measured here.<br>
+• <b>LOBBY</b> — account, chat and matchmaking server. Do not block.<br>
+• <b>OTHER</b> — login, shop, updates, ads, analytics. Blocking is useless and harmful.<br><br>
+
+<b>What “blocked” means</b><br>
+For the game the server looks dead: silence on UDP, refusal on TCP. If a battle is running on that server, the block is applied “after match” so you are not kicked.<br><br>
+
+<b>If something goes wrong</b><br>
+• Matchmaking hangs / “reconnecting” — the favorite is overloaded or in maintenance. Tap <b>Remove all blocks</b>, play a match, pick a server again.<br>
+• The filter turns off by itself — disable battery optimization for the app (menu → Battery) and do not swipe the notification away.<br>
+• “VPN error” — turn off other VPNs/proxies and “Always-on VPN” in Android settings.<br><br>
+
+<b>Ping colors:</b> green — up to 60 ms, yellow — up to 120 ms, red — above. Tap a card to see ports, traffic and details.<br><br>
+<b>Like the app?</b> You can support the author via the ❤ button.
+]]></string>
+</resources>

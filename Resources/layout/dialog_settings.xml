@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:paddingHorizontal="24dp"
+      android:paddingTop="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:text="@string/settings_language" />
+    <Spinner
+        android:id="@+id/spLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:text="@string/settings_autoping_interval" />
+    <Spinner
+        android:id="@+id/spAutoPing"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/swRst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/settings_rst"
+        android:textColor="@color/text" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" android:hint="@string/settings_packages">
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/edPackages" android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:hint="@string/settings_dns">
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/edDns" android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:hint="@string/settings_probe_ports">
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/edProbePorts" android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:hint="@string/settings_match_ports">
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/edMatchPorts" android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:hint="@string/settings_lobby_ports">
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/edLobbyPorts" android:layout_width="match_parent" android:layout_height="wrap_content"
+          android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+  </LinearLayout>
+</ScrollView>

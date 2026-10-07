@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MlbbServerPicker.csproj">
+    <Deploy />
+  </Project>
+</Solution>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">MLBB Server Picker</string>
+  <string name="subtitle_app">Выбери себе лучший сервер для игры</string>
+
+  <string name="tab_status">Статус</string>
+  <string name="tab_favorites">Избранное</string>
+  <string name="tab_servers">Серверы</string>
+
+  <string name="status_on">Фильтр активен</string>
+  <string name="status_off">Фильтр выключен</string>
+  <string name="status_error">Ошибка: %1$s</string>
+  <string name="match_now">● Идёт матч: %1$s%2$s · %3$s</string>
+  <string name="ms_fmt">%1$s мс</string>
+  <string name="ping_none">пинг -</string>
+  <string name="hint_running">Матч не идёт. Зайдите в игру и начните подбор - серверы появятся во вкладке «Серверы».</string>
+  <string name="hint_stopped">Нажмите «Запустить», разрешите VPN и откройте игру.</string>
+  <string name="counters_fmt">Игровых: %1$d · избранных: %2$d · заблокировано: %3$d</string>
+  <string name="counters_pending">+%1$d после матча</string>
+  <string name="counters_other">прочих: %1$d</string>
+  <string name="counters_flows">потоков: %1$d</string>
+  <string name="best_title_fav_one">⭐ Избранный сервер</string>
+  <string name="best_title_fav_many">⭐ Избранные серверы (%1$d)</string>
+  <string name="best_title_ping">Лучший по пингу сейчас</string>
+  <string name="geo_pending">Провайдер определяется…</string>
+  <string name="best_fav_strict_on">Остальные игровые серверы блокируются</string>
+  <string name="best_fav_strict_off">Авто-блокировка выключена</string>
+  <string name="btn_block_others">Заблокировать остальные (%1$d)</string>
+  <string name="btn_reset_favs">Сбросить избранное и блокировки</string>
+  <string name="btn_keep_only_this">Добавить</string>
+  <string name="btn_start">Запустить</string>
+  <string name="btn_stop">Остановить</string>
+  <string name="strict_switch">Авто-блокировать новые игровые серверы</string>
+  <string name="btn_unblock_all_short">Снять все блокировки</string>
+  <string name="btn_help">Как пользоваться</string>
+
+  <string name="donate_title">Поддержать автора ❤</string>
+  <string name="donate_text">Приложение бесплатное и без рекламы. Если оно помогло вам получить хороший пинг - можно сказать спасибо донатом.</string>
+  <string name="donate_button">Поддержать</string>
+  <string name="donate_bar">❤ Нравится приложение? Поддержать автора</string>
+  <string name="action_donate">Поддержать автора</string>
+
+  <string name="chip_game">Игровые</string>
+  <string name="chip_active">Сейчас</string>
+  <string name="chip_blocked">Блок</string>
+  <string name="chip_other">Прочее</string>
+  <string name="chip_fmt">%1$s · %2$d</string>
+  <string name="ping_all">Пингануть все</string>
+  <string name="ping_progress">Пингуем %1$s… (%2$d/%3$d)</string>
+  <string name="ping_cancelled">Пинг отменён</string>
+  <string name="ping_unavailable">ICMP-пинг недоступен на этом устройстве</string>
+  <string name="ping_nothing">Нечего пинговать</string>
+  <string name="ping_queued">Пингуем %1$d серверов по очереди…</string>
+  <string name="sort_title">Сортировка</string>
+  <string name="sort_ping">По пингу, лучшие сверху</string>
+  <string name="sort_game">По игровому пингу</string>
+  <string name="sort_recent">По активности</string>
+  <string name="empty_active">Сейчас игра не общается с игровыми серверами.\nЗайдите в игру и начните подбор матча.</string>
+  <string name="empty_blocked">Заблокированных нет.\nНайдите сервер с хорошим пингом и нажмите «В избранные».</string>
+  <string name="empty_other">Прочих серверов нет.</string>
+  <string name="empty_game_running">Игровых серверов пока нет.\nЗайдите в игру и начните подбор матча -\nсерверы появятся здесь сами.</string>
+  <string name="empty_game_stopped">Нажмите «Запустить» и сыграйте матч -\nигровые серверы появятся здесь.</string>
+
+  <string name="autoping_label">Авто-пинг каждые %1$d с</string>
+  <string name="ping_now">Пинг сейчас</string>
+  <string name="fav_hint">Избранные пингуются по одному с паузами, чтобы замеры не мешали друг другу.</string>
+  <string name="fav_last_ping">Последний пинг: %1$s</string>
+  <string name="fav_autoping_off">Авто-пинг выключен - нажмите ↻, чтобы пингануть</string>
+  <string name="empty_favorites">Избранных пока нет.\nВо вкладке «Серверы» нажмите «В избранные» на сервере с хорошим пингом\nили ⋮ → В избранное.</string>
+
+  <string name="quality_excellent">отлично</string>
+  <string name="quality_good">хорошо</string>
+  <string name="quality_meh">так себе</string>
+  <string name="quality_bad">плохо</string>
+  <string name="ping_not_measured">пинг не измерен</string>
+  <string name="ping_no_reply">нет ответа, возможно ICMP закрыт</string>
+  <string name="ping_in_game">в игре: %1$s</string>
+  <string name="ping_game_label">в игре · %1$s</string>
+  <string name="ping_game_icmp_dead">в игре · ICMP не отвечает</string>
+  <string name="role_match">МАТЧ</string>
+  <string name="role_probe">ПРОБА</string>
+  <string name="role_lobby">ЛОББИ</string>
+  <string name="role_service">СЕРВИС</string>
+  <string name="role_other">ПРОЧЕЕ</string>
+  <string name="badge_now">СЕЙЧАС</string>
+  <string name="badge_fav">★ ИЗБРАННЫЙ</string>
+  <string name="badge_blocked">ЗАБЛОКИРОВАН</string>
+  <string name="badge_autoblock">АВТОБЛОК</string>
+  <string name="badge_pending">БЛОК ПОСЛЕ МАТЧА</string>
+  <string name="geo_resolving">Определяем провайдера…</string>
+  <string name="geo_failed">Провайдер не определён, возможно нет интернета</string>
+  <string name="geo_service">Сервисный трафик: логин, CDN, аналитика</string>
+  <string name="geo_lobby">Сервер лобби / аккаунта</string>
+  <string name="geo_unknown">Назначение не определено</string>
+  <string name="meta_matches">Матчей: %1$d</string>
+  <string name="meta_samples">замеров %1$d</string>
+  <string name="meta_loss">потери %1$s</string>
+  <string name="meta_pinged">пинг %1$s</string>
+  <string name="det_ports">Порты: UDP %1$s · TCP %2$s</string>
+  <string name="det_udp">UDP ↑ %1$s / %2$d пкт · ↓ %3$s / %4$d пкт</string>
+  <string name="det_tcp">TCP ↑ %1$s · ↓ %2$s</string>
+  <string name="det_rtt">Игровой пинг: средний %1$s · мин %2$s · последний %3$s</string>
+  <string name="det_ping">ICMP-пинг: средний %1$s · последний %2$s · мин %3$s · джиттер %4$s · потери %5$s · раундов %6$d</string>
+  <string name="det_icmp">ICMP игры: %1$d/%2$d</string>
+  <string name="det_geo">Провайдер: %1$s</string>
+  <string name="det_source">источник %1$s</string>
+  <string name="det_first">Первый раз: %1$s · отброшено пакетов: %2$d</string>
+  <string name="btn_block_card">Блокировать</string>
+  <string name="btn_unblock_card">Снять блок</string>
+  <string name="btn_keep_card">★ В избранные</string>
+  <string name="btn_fav_card">Удалить</string>
+  <string name="btn_ping_card">Пинг</string>
+
+  <string name="bytes_b">%1$s Б</string>
+  <string name="bytes_kb">%1$s КБ</string>
+  <string name="bytes_mb">%1$s МБ</string>
+  <string name="bytes_gb">%1$s ГБ</string>
+  <string name="ago_now">только что</string>
+  <string name="ago_sec">%1$d с назад</string>
+  <string name="ago_min">%1$d мин назад</string>
+  <string name="ago_hour">%1$d ч назад</string>
+
+  <string name="snack_strict_on">Новые игровые серверы будут блокироваться автоматически</string>
+  <string name="snack_strict_off">Авто-блокировка новых серверов выключена</string>
+  <string name="snack_vpn_denied">Без разрешения VPN перехват трафика игры невозможен</string>
+  <string name="snack_csv_saved">CSV сохранён</string>
+  <string name="snack_export_error">Ошибка экспорта: %1$s</string>
+  <string name="snack_unblocked">%1$s разблокирован</string>
+  <string name="snack_blocked">%1$s заблокирован</string>
+  <string name="snack_block_pending">%1$s будет заблокирован после матча</string>
+  <string name="snack_ip_copied">IP скопирован</string>
+  <string name="snack_no_browser">Браузер не найден</string>
+  <string name="snack_fav_added">%1$s добавлен в избранное</string>
+  <string name="snack_fav_removed">%1$s удалён из избранного</string>
+  <string name="snack_reset">Сброс выполнен</string>
+  <string name="snack_unblocked_all">Все блокировки сняты</string>
+  <string name="snack_counters_cleared">Счётчики сброшены</string>
+  <string name="snack_battery_ok">Оптимизация батареи уже отключена для приложения</string>
+  <string name="snack_saved">Сохранено</string>
+  <string name="snack_saved_restart">Сохранено. Пакеты и DNS применятся после перезапуска фильтра</string>
+  <string name="snack_keep_result">%1$s добавлен в избранное. Заблокировано: %2$d</string>
+  <string name="keep_pending_suffix">после матча: %1$d</string>
+  <string name="snack_blocked_count">Заблокировано: %1$d</string>
+
+  <string name="btn_cancel">Отмена</string>
+  <string name="btn_block">Блокировать</string>
+  <string name="btn_after_match">После матча</string>
+  <string name="btn_now">Сейчас</string>
+  <string name="btn_undo">Отменить</string>
+  <string name="btn_unfavorite">Убрать из избранного</string>
+  <string name="btn_reset">Сбросить</string>
+  <string name="btn_unblock">Разблокировать</string>
+  <string name="btn_save">Сохранить</string>
+  <string name="btn_clear_counters">Очистить счётчики</string>
+  <string name="btn_delete_all">Удалить всё</string>
+  <string name="btn_ok">Понятно</string>
+  <string name="btn_settings">Настройки</string>
+  <string name="btn_close">Закрыть</string>
+  <string name="btn_open_settings">Открыть настройки</string>
+  <string name="btn_later">Позже</string>
+
+  <string name="dlg_not_game_title">Это не игровой сервер</string>
+  <string name="dlg_not_game_msg">Этот адрес не используется в бою: это может быть логин, лобби, магазин, обновления или аналитика. Блокировка не улучшит пинг, но может сломать вход или магазин.\n\nВсё равно заблокировать?</string>
+  <string name="dlg_match_now_title">На этом сервере идёт матч</string>
+  <string name="dlg_match_now_msg">Если заблокировать его сейчас, соединение оборвётся и вас может выкинуть из боя.\n\nЛучше заблокировать после матча - приложение сделает это автоматически, когда сервер замолчит.</string>
+  <string name="dlg_fav_title">%1$s - избранный</string>
+  <string name="dlg_fav_msg">Убрать сервер из избранного? Блокировки остальных серверов останутся.</string>
+  <string name="dlg_keep_title">Добавить в избранные?</string>
+  <string name="keep_msg_1">Сервер %1$s%2$s станет избранным.</string>
+  <string name="keep_msg_others">Другие игровые серверы будут заблокированы: %1$d</string>
+  <string name="keep_msg_no_others">Других незаблокированных игровых серверов сейчас нет</string>
+  <string name="keep_msg_match_note">текущий сервер матча - после окончания матча</string>
+  <string name="keep_msg_strict">Включится режим «только избранные»: новые игровые серверы, найденные позже, будут блокироваться автоматически.</string>
+  <string name="keep_msg_lobby">Лобби и сервисные серверы не трогаются - без них игра не сможет войти в аккаунт.</string>
+  <string name="keep_msg_hang">Если подбор зависнет, избранный сервер может быть перегружен или на обслуживании. Нажмите «Снять все блокировки».</string>
+  <string name="dlg_block_others_title">Заблокировать остальные игровые серверы?</string>
+  <string name="dlg_block_others_msg">%1$d игровых серверов вне избранного будут заблокированы. Текущий сервер матча - после матча.</string>
+  <string name="dlg_reset_title">Сбросить избранное и блокировки?</string>
+  <string name="dlg_reset_msg">Все серверы будут разблокированы, избранное очищено, авто-блокировка выключена. Статистика останется.</string>
+  <string name="dlg_unblock_all_title">Снять все блокировки?</string>
+  <string name="dlg_unblock_all_msg">Все сервера снова станут доступны игре. Избранное останется, но авто-блокировка новых серверов выключится, пока вы не включите её снова.</string>
+  <string name="menu_label">Метка…</string>
+  <string name="menu_fav_add">В избранное ★</string>
+  <string name="menu_fav_remove">Убрать из избранного</string>
+  <string name="menu_details">Показать/скрыть детали</string>
+  <string name="menu_copy">Скопировать IP</string>
+  <string name="menu_whois">Полный whois в браузере</string>
+  <string name="menu_ping">Пингануть сервер</string>
+  <string name="dlg_label_title">Метка для %1$s</string>
+  <string name="label_hint">например: «мой лучший», «лагает вечером»</string>
+  <string name="dlg_clear_title">Очистить статистику?</string>
+  <string name="dlg_clear_msg">Счётчики пакетов и пинги будут сброшены.\n\nИгровые серверы, избранное, блокировки, метки и данные провайдера останутся. Прочие сервисные адреса будут удалены.</string>
+  <string name="dlg_delete_all_title">Удалить всё, включая игровые серверы?</string>
+  <string name="dlg_delete_all_msg">Это действие нельзя отменить.</string>
+
+  <string name="settings_title">Настройки</string>
+  <string name="settings_language">Язык приложения</string>
+  <string name="settings_autoping_interval">Интервал авто-пинга избранного</string>
+  <string name="lang_system">Как в системе</string>
+  <string name="sec_fmt">%1$d с</string>
+  <string name="settings_rst">Отвечать RST на TCP заблокированных серверов, чтобы игра быстрее забывала их</string>
+  <string name="settings_packages">Пакеты игры через запятую</string>
+  <string name="settings_dns">DNS внутри туннеля</string>
+  <string name="settings_probe_ports">UDP-порты проверки пинга</string>
+  <string name="settings_match_ports">Порты матчей</string>
+  <string name="settings_lobby_ports">TCP-порты лобби</string>
+
+  <string name="dlg_not_installed_title">Игра не найдена</string>
+  <string name="dlg_not_installed_msg">Пакет Mobile Legends не найден (%1$s).\n\nЕсли игра установлена из другого магазина - добавьте имя пакета в настройках.</string>
+  <string name="dlg_battery_title">Не давайте системе убивать фильтр</string>
+  <string name="dlg_battery_msg">На многих телефонах Xiaomi, Samsung, Huawei, Realme и других система убивает фоновые сервисы, и фильтр останавливается посреди игры.\n\nРекомендуется исключить приложение из оптимизации батареи.</string>
+
+  <string name="action_help">Как это работает</string>
+  <string name="action_battery">Батарея</string>
+  <string name="action_unblock_all">Снять все блокировки</string>
+  <string name="action_export">Экспорт CSV</string>
+  <string name="action_clear">Очистить статистику</string>
+  <string name="action_settings">Настройки</string>
+
+  <string name="notif_channel">MLBB фильтр серверов</string>
+  <string name="notif_desc">Статус перехвата игрового трафика</string>
+  <string name="notif_starting">Запуск…</string>
+  <string name="notif_title">MLBB фильтр серверов активен</string>
+  <string name="notif_match">Матч: %1$s</string>
+  <string name="vpn_err_not_found">Mobile Legends не установлена на этом устройстве</string>
+  <string name="vpn_err_no_iface">Система не выдала VPN-интерфейс. Отключите другие VPN и попробуйте снова</string>
+  <string name="vpn_err_revoked">VPN был отключён системой, возможно включился другой VPN</string>
+
+  <string name="help_title">Как пользоваться</string>
+  <string name="help_html"><![CDATA[
+<b>Что делает приложение</b><br>
+Это локальный фильтр трафика для Mobile Legends. Он <b>не</b> ускоряет интернет и <b>не</b> меняет регион аккаунта -
+он позволяет «спрятать» от игры боевые серверы с плохим пингом, чтобы игра выбирала хорошие.
+Никуда ничего не отправляется: перехватывается только игра, остальные приложения работают напрямую.<br><br>
+
+<b>Быстрый старт</b><br>
+1. На вкладке <b>Статус</b> нажмите <b>Запустить</b> и разрешите VPN. Другие VPN должны быть выключены - Android разрешает только один VPN.<br>
+2. Откройте игру и сыграйте 1-3 матча. Вкладка <b>Серверы</b> заполнится серверами, игровым пингом, страной и провайдером.<br>
+3. Нажмите кнопку <b>пинга</b>, чтобы проверить все серверы. Серверы пингуются по одному с паузами, поэтому массовый пинг не искажает результаты.<br>
+4. Нажмите <b>В избранные</b> на лучшем сервере или «Оставить только его» на вкладке Статус. Готово: остальные игровые серверы будут заблокированы, новые - блокироваться автоматически.<br><br>
+
+<b>Вкладка Избранное</b><br>
+Здесь ваши выбранные серверы с авто-пингом. Интервал меняется в настройках. ICMP-пинг - это ориентир; реальный пинг в бою - значение «в игре», измеренное по собственным пробам игры.
+Некоторые серверы вообще не отвечают на ICMP - тогда показывается только игровой пинг.<br><br>
+
+<b>Типы серверов</b><br>
+• <b>МАТЧ</b> - боевой сервер. Пинг в бою = пинг до него.<br>
+• <b>ПРОБА</b> - кандидаты, которые игра проверяет перед подбором. Здесь измеряется честный игровой пинг.<br>
+• <b>ЛОББИ</b> - аккаунт, чат и подбор. Не блокируйте.<br>
+• <b>ПРОЧЕЕ</b> - логин, магазин, обновления, реклама, аналитика. Блокировать бесполезно и вредно.<br><br>
+
+<b>Что значит «заблокирован»</b><br>
+Для игры сервер выглядит мёртвым: UDP молчит, TCP получает отказ. Если на сервере уже идёт бой, блокировка применяется «после матча», чтобы вас не выкинуло.<br><br>
+
+<b>Если что-то пошло не так</b><br>
+• Подбор завис или пошло переподключение - избранный сервер может быть перегружен или на обслуживании. Нажмите <b>Снять все блокировки</b>, сыграйте матч и выберите сервер заново.<br>
+• Фильтр сам выключается - отключите оптимизацию батареи для приложения через меню → Батарея и не смахивайте уведомление.<br>
+• Ошибка VPN - выключите другие VPN/прокси и Always-on VPN в настройках Android.<br><br>
+
+<b>Цвета пинга:</b> зелёный - до 60 мс, жёлтый - до 120 мс, красный - выше. Нажмите карточку сервера, чтобы увидеть порты, трафик и детали.<br><br>
+<b>Нравится приложение?</b> Можно поддержать автора через кнопку ❤. 
+]]></string>
+</resources>

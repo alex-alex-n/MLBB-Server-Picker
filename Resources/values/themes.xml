@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.MlbbPicker" parent="Theme.Material3.Dark.NoActionBar">
+    <item name="colorPrimary">@color/accent</item>
+    <item name="colorOnPrimary">@color/on_accent</item>
+    <item name="colorSurface">@color/surface</item>
+    <item name="colorSurfaceContainer">@color/card</item>
+    <item name="colorSurfaceContainerLow">@color/card</item>
+    <item name="colorSurfaceContainerHigh">@color/card</item>
+    <item name="colorOnSurface">@color/text</item>
+    <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+    <item name="colorSecondaryContainer">@color/chip_selected</item>
+    <item name="colorOnSecondaryContainer">@color/text</item>
+    <item name="android:colorBackground">@color/bg</item>
+    <item name="android:windowBackground">@color/bg</item>
+    <!-- На Android ≤ 14 панели красятся в фон; на 15+ они прозрачные, фон даёт корневой View (edge-to-edge) -->
+    <item name="android:statusBarColor">@color/bg</item>
+    <item name="android:navigationBarColor">@color/bg</item>
+    <item name="android:windowLightStatusBar">false</item>
+  </style>
+</resources>

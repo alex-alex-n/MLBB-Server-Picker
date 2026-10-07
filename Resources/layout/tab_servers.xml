@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tabServers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+  <HorizontalScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fillViewport="false"
+      android:overScrollMode="never"
+      android:scrollbars="none">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="2dp"
+        app:singleSelection="true"
+        app:selectionRequired="true">
+
+      <com.google.android.material.chip.Chip
+          android:id="@+id/chipGame"
+          style="@style/Widget.Material3.Chip.Filter"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/chip_game" />
+
+      <com.google.android.material.chip.Chip
+          android:id="@+id/chipActive"
+          style="@style/Widget.Material3.Chip.Filter"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/chip_active" />
+
+      <com.google.android.material.chip.Chip
+          android:id="@+id/chipBlocked"
+          style="@style/Widget.Material3.Chip.Filter"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/chip_blocked" />
+
+      <com.google.android.material.chip.Chip
+          android:id="@+id/chipOther"
+          style="@style/Widget.Material3.Chip.Filter"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/chip_other" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+  </HorizontalScrollView>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center_vertical"
+      android:paddingStart="16dp"
+      android:paddingEnd="8dp"
+      android:paddingTop="2dp"
+      android:paddingBottom="4dp">
+
+    <TextView
+        android:id="@+id/txtPingStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:visibility="gone"
+        android:text="" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSort"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/sort_title"
+        app:icon="@drawable/ic_sort"
+        app:iconTint="@color/text_secondary" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPingAll"
+        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/ping_all"
+        app:icon="@drawable/ic_ping" />
+
+  </LinearLayout>
+
+  <com.google.android.material.progressindicator.LinearProgressIndicator
+      android:id="@+id/progPing"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="16dp"
+      android:layout_marginBottom="4dp"
+      android:visibility="gone"
+      app:trackCornerRadius="2dp" />
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="4dp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/txtEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="32dp"
+        android:textColor="@color/text_secondary"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:text="@string/empty_game_stopped" />
+
+  </FrameLayout>
+
+</LinearLayout>
