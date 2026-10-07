@@ -9,7 +9,7 @@
 
 <br>
 
-[![Скачать APK](https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/levoe123/MlbbServerPicker/releases/latest)
+[![Скачать APK](https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/woksonal/MLBB-Server-Picker/releases/latest)
 [![Поддержать](https://img.shields.io/badge/%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-Donate-FF6B8B?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://www.donationalerts.com/r/levoe123)
 [![Telegram](https://img.shields.io/badge/Telegram-@levoe123-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/levoe123)
 
