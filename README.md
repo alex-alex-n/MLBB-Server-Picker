@@ -349,7 +349,7 @@ flowchart TB
 dotnet workload install android
 
 # клонирование
-git clone https://github.com/levoe123/MlbbServerPicker.git
+git clone https://github.com/woksonal/MLBB-Server-Picker.git
 cd MlbbServerPicker
 
 # сборка APK для ARM64
