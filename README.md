@@ -350,7 +350,7 @@ dotnet workload install android
 
 # клонирование
 git clone https://github.com/woksonal/MLBB-Server-Picker.git
-cd MlbbServerPicker
+cd MLBB-Server-Picker
 
 # сборка APK для ARM64
 dotnet publish -c Release -f net10.0-android -r android-arm64 -p:AndroidPackageFormats=apk
@@ -364,7 +364,7 @@ dotnet publish -c Release -f net10.0-android -r android-arm -p:AndroidPackageFor
 ### Структура проекта
 
 ```
-MlbbServerPicker/
+MLBB-Server-Picker/
 ├── MainActivity.cs              # UI: вкладки, статус, список серверов
 ├── MainActivity.Dialogs.cs      # диалоги, настройки, справка
 ├── Core/
