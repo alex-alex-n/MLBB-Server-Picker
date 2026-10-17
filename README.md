@@ -408,9 +408,6 @@ MLBB-Server-Picker/
 [![Поддержать на DonationAlerts](https://img.shields.io/badge/DonationAlerts-%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-FF6B8B?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://www.donationalerts.com/r/levoe123)
 [![Telegram автора](https://img.shields.io/badge/Telegram-@levoe123-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/levoe123)
 
-**Вопросы, баги, предложения:** [@levoe123](https://t.me/levoe123)
-
-💡 Идея: стример **Сметана** — [t.me/smetana_mlbb](https://t.me/smetana_mlbb)
 
 </div>
 
